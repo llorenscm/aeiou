@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "start-storybook -p 6006",
-    "build": "build-storybook",
+    "dev": "start-storybook -p 6006 -s public",
+    "build": "build-storybook -s public",
     "test": "jest"
   },
   "dependencies": {
