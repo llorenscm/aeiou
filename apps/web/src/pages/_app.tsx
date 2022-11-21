@@ -7,9 +7,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>aeiou</title>
+        <title>aeiou - Millora el traç de la lletra lligada</title>
         <meta name="viewport" content="width=device-width" />
-        <meta name="description" content="App per millorar el traç" />
+        <meta name="description" content="Aplicació per millorar el traç de la lletra lligada i els números" />
         <meta name="theme-color" content="#aee8da" />
         <meta name="msapplication-TileColor" content="#aee8da" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
