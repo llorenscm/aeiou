@@ -1,6 +1,6 @@
 # aeiou
 
-aeiou is a web application to improve strok of the letters and numbers for first grade children.
+aeiou is a web application to improve strok of the letters and numbers for children.
 
 ## Links
 
@@ -10,4 +10,4 @@ aeiou is a web application to improve strok of the letters and numbers for first
 
 ## Technologies
 
-Javascript, Typescript, ReactJS, NextJS, Storybook, Sass, CSS Modules, BEM, ATOMIC Design, ITCSS, and Figma.
+Typescript, ReactJS, NextJS, Storybook, Sass, CSS Modules, BEM, ATOMIC Design, ITCSS, and Figma.
