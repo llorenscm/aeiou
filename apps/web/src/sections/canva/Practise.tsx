@@ -39,11 +39,6 @@ export function Practise({ data }: { data: Data[] }) {
       canvas.width = canvas.clientWidth * scale;
       canvas.height = canvas.clientHeight * scale;
       context.scale(scale, scale);
-      // context.font = `12vw Massallera`;
-      // context.textAlign = "center";
-      // context.textBaseline = "middle";
-      // context.fillText("arbre", canvas.width / scale / 2, canvas.height / scale / 2);
-      // context.strokeText("arbre", canvas.width / scale / 2, canvas.height / scale / 2);
     };
 
     const drawImage = () => {
@@ -51,15 +46,9 @@ export function Practise({ data }: { data: Data[] }) {
       image.src = imageSrc;
 
       switch (true) {
-        case window.innerWidth < 1024 && orientation === "landscape":
-          imageWidth = (canvas.width / scale) * 0.45;
-          imageHeight = imageWidth / aspectRadio;
-
-          break;
-        case window.innerWidth >= 1024 && orientation === "landscape":
-          imageWidth = (canvas.width / scale) * 0.55;
-          imageHeight = imageWidth / aspectRadio;
-
+        case orientation === "landscape":
+          imageHeight = (canvas.height / scale);
+          imageWidth = imageHeight * aspectRadio;
           break;
         case orientation === "portrait":
           imageWidth = canvas.width / scale;
