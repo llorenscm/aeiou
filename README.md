@@ -5,8 +5,8 @@ aeiou is a web application to improve strok of the letters and numbers for first
 ## Links
 
 - [Live Demo](https://aeiou-web.vercel.app/)
-- [Desing System](https://aeiou-design-system.vercel.app/)
-- [Desing](https://www.figma.com/file/cCEAmmhBS9D8CKzabIlnah/aeiou?node-id=3%3A89&t=CptpePeDBmZ5fD5u-1)
+- [Design System](https://aeiou-design-system.vercel.app/)
+- [Design](https://www.figma.com/file/cCEAmmhBS9D8CKzabIlnah/aeiou?node-id=3%3A89&t=CptpePeDBmZ5fD5u-1)
 
 ## Technologies
 
