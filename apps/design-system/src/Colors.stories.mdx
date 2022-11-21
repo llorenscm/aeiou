@@ -1,0 +1,60 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+
+import styles from "./docs/colors.module.scss";
+
+<Meta title="Styles/Colors" />
+
+# Colors
+
+```scss
+@use "@aeiou/design-system/src/settings/colors";
+```
+
+## Brand
+
+<ColorPalette>
+  <ColorItem title="Brand" colors={{ "colors.$brand": styles.brand }} />
+</ColorPalette>
+
+## Buttons
+
+<ColorPalette>
+  <ColorItem
+    title="Button Primary"
+    colors={{ "colors.$btn-primary": styles.btnPrimary }}
+  />
+  <ColorItem
+    title="Button Secondary"
+    colors={{ "colors.$btn-secondary": styles.btnSecondary }}
+  />
+
+   <ColorItem
+    title="Button Tertiary"
+    colors={{ "colors.$btn-tertiary": styles.btnTertiary }}
+  />
+</ColorPalette>
+
+## Text
+
+<ColorPalette>
+  <ColorItem
+    title="Text primary"
+    colors={{ "colors.$text-primary": styles.textPrimary }}
+  />
+</ColorPalette>
+
+## Backgrounds
+
+<ColorPalette>
+  <ColorItem
+    title="Background primary"
+    colors={{ "colors.$bg-primary": styles.bgPrimary }}
+  />
+</ColorPalette>
+
+<ColorPalette>
+  <ColorItem
+    title="Background secondary"
+    colors={{ "colors.$bg-secondary": styles.bgSecondary }}
+  />
+</ColorPalette>

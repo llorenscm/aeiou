@@ -1,0 +1,107 @@
+[
+  {
+    "text": "a",
+    "imageSrc": "/img/letters/a.png"
+  },
+  {
+    "text": "b",
+    "imageSrc": "/img/letters/b.png"
+  },
+  {
+    "text": "c",
+    "imageSrc": "/img/letters/c.png"
+  },
+  {
+    "text": "d",
+    "imageSrc": "/img/letters/d.png"
+  },
+  {
+    "text": "e",
+    "imageSrc": "/img/letters/e.png"
+  },
+  {
+    "text": "f",
+    "imageSrc": "/img/letters/f.png"
+  },
+  {
+    "text": "g",
+    "imageSrc": "/img/letters/g.png"
+  },
+  {
+    "text": "h",
+    "imageSrc": "/img/letters/h.png"
+  },
+  {
+    "text": "i",
+    "imageSrc": "/img/letters/i.png"
+  },
+  {
+    "text": "j",
+    "imageSrc": "/img/letters/j.png"
+  },
+  {
+    "text": "k",
+    "imageSrc": "/img/letters/k.png"
+  },
+  {
+    "text": "l",
+    "imageSrc": "/img/letters/l.png"
+  },
+  {
+    "text": "m",
+    "imageSrc": "/img/letters/m.png"
+  },
+  {
+    "text": "n",
+    "imageSrc": "/img/letters/n.png"
+  },
+
+  {
+    "text": "o",
+    "imageSrc": "/img/letters/o.png"
+  },
+  {
+    "text": "p",
+    "imageSrc": "/img/letters/p.png"
+  },
+  {
+    "text": "q",
+    "imageSrc": "/img/letters/q.png"
+  },
+  {
+    "text": "r",
+    "imageSrc": "/img/letters/r.png"
+  },
+  {
+    "text": "s",
+    "imageSrc": "/img/letters/s.png"
+  },
+  {
+    "text": "t",
+    "imageSrc": "/img/letters/t.png"
+  },
+  {
+    "text": "u",
+    "imageSrc": "/img/letters/u.png"
+  },
+  {
+    "text": "v",
+    "imageSrc": "/img/letters/v.png"
+  },
+  {
+    "text": "w",
+    "imageSrc": "/img/letters/w.png"
+  },
+  {
+    "text": "x",
+    "imageSrc": "/img/letters/x.png"
+  },
+  {
+    "text": "y",
+    "imageSrc": "/img/letters/y.png"
+  },
+  {
+    "text": "z",
+    "imageSrc": "/img/letters/z.png"
+  }
+]

@@ -1,0 +1,21 @@
+@font-face {
+  font-weight: 300;
+  font-family: Massallera;
+  font-display: swap;
+  src: url("/fonts/Massallera-Regular.ttf");
+  leading-trim: both;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Pompiere;
+  font-display: swap;
+  src: url("/fonts/Pompiere-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Pompiere-fallback";
+  size-adjust: 67.54000000000005%;
+  ascent-override: 150%;
+  src: local("Arial");
+}

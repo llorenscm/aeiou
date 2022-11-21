@@ -1,0 +1,22 @@
+@use "../settings/sizes";
+@use "../settings/typography";
+
+@mixin h400-regular() {
+  font: typography.$sm-h400-regular;
+
+  @media (min-width: sizes.$tablet) {
+    font: typography.$lg-h400-regular;
+  }
+}
+
+@mixin h300-regular() {
+  font: typography.$xs-h300-regular;
+
+  @media (min-width: sizes.$mobile) {
+    font: typography.$sm-h300-regular;
+  }
+
+  @media (min-width: sizes.$tablet) {
+    font: typography.$lg-h300-regular;
+  }
+}

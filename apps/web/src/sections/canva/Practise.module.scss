@@ -1,0 +1,44 @@
+@use "@aeiou/design-system/src/settings/colors";
+@use "@aeiou/design-system/src/settings/sizes";
+
+.main {
+  display: grid;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.canvas {
+  width: 100%;
+  background-color: colors.$white;
+  height: 70vh;
+  height: calc(var(--vh, 1vh) * 70);
+  touch-action: none;
+}
+
+.fotter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: colors.$bg-primary;
+  padding: 1rem;
+  height: 30vh;
+  height: calc(var(--vh, 1vh) * 30);
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    max-width: 650px;
+
+    @media (min-width: sizes.$tablet) {
+      max-width: 750px;
+    }
+    @media (min-width: sizes.$tablet-lg) {
+      max-width: 1024px;
+    }
+  }
+}

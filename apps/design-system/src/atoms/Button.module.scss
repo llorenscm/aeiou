@@ -1,0 +1,55 @@
+@use "../settings/border";
+@use "../settings/colors";
+@use "../settings/sizes";
+@use "../settings/typography";
+
+.btn {
+  --size: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: colors.$text-primary;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: border.$radius-default;
+  width: var(--size);
+  height: var(--size);
+  padding:0;
+  font: typography.$xs-h300-regular;
+
+  &--primary {
+    background-color: colors.$btn-primary;
+  }
+  &--secondary {
+    background-color: colors.$btn-secondary;
+  }
+  &--tertiary {
+    background-color: colors.$btn-tertiary;
+  }
+
+  &--active {
+    background-color: colors.$btn-secondary;
+  }
+
+  &--left {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  &--right {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  @media (min-width: sizes.$tablet-xs) and (orientation: portrait), (min-width: sizes.$tablet) {
+    --size: 3.125rem;
+    font: typography.$sm-h300-regular;
+  }
+
+  @media (min-width: sizes.$tablet-lg) {
+    --size: 4.375rem;
+    border-radius: border.$radius-large;
+    font: typography.$lg-h300-regular;
+  }
+}

@@ -1,0 +1,13 @@
+@use "@aeiou/design-system/src/settings/colors";
+
+.main {
+  background-color: colors.$bg-primary;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  padding: 0.5rem;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 15rem));
+}

@@ -1,0 +1,11 @@
+$font-family-primary: "Pompiere, Pompiere-fallback, sans-serif";
+$font-family-secondary: "Massallera, Times New Roman,serif";
+
+// Tablet
+$lg-h400-regular: 2.5rem / 1.01 #{$font-family-primary};
+$lg-h300-regular: 2.5rem / 1.01 #{$font-family-secondary};
+
+// Mobile
+$sm-h400-regular: 1.875rem / 1.01 #{$font-family-primary};
+$sm-h300-regular: 1.875rem / 1.01 #{$font-family-secondary};
+$xs-h300-regular: 1.25rem / 1.01 #{$font-family-secondary};

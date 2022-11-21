@@ -1,0 +1,13 @@
+@use "../settings/colors";
+@use "../settings/typography";
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  color: colors.$text-primary;
+  text-decoration: none;
+}

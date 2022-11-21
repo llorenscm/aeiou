@@ -1,0 +1,17 @@
+@use "../settings/colors";
+
+/* stylelint-disable */
+:export {
+  brand: colors.$brand;
+
+  bgPrimary: colors.$bg-primary;
+  bgSecondary: colors.$bg-secondary;
+
+  btnPrimary: colors.$btn-primary;
+  btnSecondary: colors.$btn-secondary;
+  btnTertiary: colors.$btn-tertiary;
+
+  textPrimary: colors.$text-primary;
+
+  white: colors.$white;
+}

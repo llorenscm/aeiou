@@ -1,0 +1,29 @@
+@use "../settings/colors";
+@use "../settings/border";
+@use "../settings/typography";
+@use "../tools/typography" as mixins;
+@use "../index.scss";
+
+.radius {
+  width: 5rem;
+  height: 5rem;
+  background: colors.$brand;
+  border-radius: var(--radius);
+
+  &--default {
+    --radius: #{border.$radius-default};
+  }
+
+  &--large {
+    --radius: #{border.$radius-large};
+  }
+}
+.sbdocs-content {
+  .h400-regular {
+    @include mixins.h400-regular;
+  }
+
+  .h300-regular {
+    @include mixins.h300-regular;
+  }
+}

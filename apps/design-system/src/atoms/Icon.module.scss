@@ -1,0 +1,24 @@
+@use "../settings/sizes";
+
+.icon {
+  --icon-size: 1.5rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--icon-size);
+  height: var(--icon-size);
+
+  > svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (min-width: sizes.$tablet-xs) and (orientation: portrait), (min-width: sizes.$tablet) {
+    --icon-size: 2rem;
+  }
+
+  @media (min-width: sizes.$tablet-lg) {
+    --icon-size: 3rem;
+  }
+}
