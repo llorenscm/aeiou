@@ -1,7 +1,5 @@
 # aeiou
 
-## Introduction
-
 aeiou is a web application to improve strok of the letters and numbers for first grade children.
 
 ## Links
