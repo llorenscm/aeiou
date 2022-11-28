@@ -16,12 +16,21 @@ const Home: NextPage = () => {
   }
 
   return (
-    <div>
-      <main className={styles.main}>
+    <main className={styles.main}>
+      <div className={styles.main__content}>
         <Card href="/lletres" title="lletres" image="/img/letter.png" alt="lletra a" />
         <Card href="/numeros" title="números" image="/img/number.png" alt="número u" />
-      </main>
-    </div>
+      </div>
+      <footer className={styles.footer}>
+        <p>
+          Created by{" "}
+          <a href="https://github.com/llorenscm" target="blank" className={styles.footer__link}>
+            Llorenç Comellas
+          </a>{" "}
+          and Clara Giménez
+        </p>
+      </footer>
+    </main>
   );
 };
 
