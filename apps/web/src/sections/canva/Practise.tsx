@@ -47,7 +47,7 @@ export function Practise({ data }: { data: Data[] }) {
 
       switch (true) {
         case orientation === "landscape":
-          imageHeight = (canvas.height / scale);
+          imageHeight = canvas.height / scale;
           imageWidth = imageHeight * aspectRadio;
           break;
         case orientation === "portrait":
