@@ -7,7 +7,7 @@ export default function Paraules({ wordData }: any) {
 
 export async function getStaticPaths() {
   const letters = useLetters();
-  const paths = letters.map((letter) => {
+  const paths = letters.map((letter: any) => {
     return {
       params: {
         slug: letter.slug,
