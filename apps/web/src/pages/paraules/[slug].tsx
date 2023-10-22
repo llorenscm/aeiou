@@ -1,7 +1,7 @@
 import { Practise } from "../../sections/canva/Practise";
 import { useLetters, useWords } from "../../sections/shared/useData";
 
-export default function Paraules({ wordData }) {
+export default function Paraules({ wordData }: any) {
   return <Practise data={wordData} type="words" />;
 }
 
@@ -21,7 +21,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: any) {
   const wordData = useWords(params.slug);
 
   return {
