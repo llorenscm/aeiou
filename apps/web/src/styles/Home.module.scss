@@ -1,4 +1,5 @@
 @use "@aeiou/design-system/src/settings/colors";
+@use "@aeiou/design-system/src/settings/sizes";
 
 .main {
   background-color: colors.$bg-primary;
@@ -9,5 +10,13 @@
   place-content: center;
   place-items: center;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(5rem, 15rem));
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 12rem));
+
+  @media (min-width: sizes.$tablet) {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 15rem));
+  }
+
+  @media (max-height: 780px) and (orientation: portrait) {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 10rem));
+  }
 }

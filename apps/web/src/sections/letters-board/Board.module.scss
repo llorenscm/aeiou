@@ -1,0 +1,48 @@
+@use "@aeiou/design-system/src/settings/colors";
+@use "@aeiou/design-system/src/settings/sizes";
+@use "@aeiou/design-system/src/settings/typography";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: colors.$bg-primary;
+  padding: 1rem;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  &__title {
+    font: typography.$xs-h300-regular;
+    color: colors.$white;
+    text-align: center;
+    margin: 2rem 0;
+    max-width: 32ch;
+  }
+
+  svg g {
+    fill: colors.$brand;
+  }
+
+  @media (min-width: sizes.$tablet) {
+    &__title {
+      font: typography.$lg-h300-regular;
+      margin: 0 0 2rem;
+    }
+  }
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  // max-width: 650px;
+
+  @media (min-width: sizes.$tablet) {
+    // max-width: 750px;
+  }
+  @media (min-width: sizes.$tablet-lg) {
+    // max-width: 1024px;
+  }
+}

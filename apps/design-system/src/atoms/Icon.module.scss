@@ -14,11 +14,30 @@
     height: 100%;
   }
 
+  &--xl {
+    --icon-size: 3rem;
+  }
+  &--xxl {
+    --icon-size: 4rem;
+  }
+
   @media (min-width: sizes.$tablet-xs) and (orientation: portrait), (min-width: sizes.$tablet) {
     --icon-size: 2rem;
+    &--xxl {
+      --icon-size: 7rem;
+    }
+    &--xl {
+      --icon-size: 4rem;
+    }
   }
 
   @media (min-width: sizes.$tablet-lg) {
     --icon-size: 3rem;
+    &--xxl {
+      --icon-size: 7rem;
+    }
+    &--xl {
+      --icon-size: 4rem;
+    }
   }
 }

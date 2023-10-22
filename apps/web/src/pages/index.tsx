@@ -19,6 +19,7 @@ const Home: NextPage = () => {
     <div>
       <main className={styles.main}>
         <Card href="/lletres" title="lletres" image="/img/letter.png" alt="lletra a" />
+        <Card href="/paraules" title="paraules" image="/img/word.png" alt="paraula sol" />
         <Card href="/numeros" title="números" image="/img/number.png" alt="número u" />
       </main>
     </div>

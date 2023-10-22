@@ -3,12 +3,17 @@ import { useEffect, useRef, useState } from "react";
 import { Button } from "@aeiou/design-system/src/atoms/Button";
 import { Icon } from "@aeiou/design-system/src/atoms/Icon";
 
-import { Data } from "./useData";
+import { classNames } from "../shared/classNames";
+import { Data } from "../shared/useData";
 
 import styles from "./Practise.module.scss";
 
-export function Practise({ data }: { data: Data[] }) {
-  const [imageSrc, setImageSrc] = useState(data[0].imageSrc);
+export function Practise({ data, type }: { data: Data[]; type: string }) {
+  const typeMode = type;
+
+  const [imageSrc, setImageSrc] = useState(typeMode === "letters" ? "/img/letters/a.png" : "/img/numbers/1.png");
+  const [word, setWord] = useState("");
+
   const [isDrawing, setIsDrawing] = useState(false);
   const [resize, setResize] = useState(0);
   const [clear, setClear] = useState(false);
@@ -20,7 +25,6 @@ export function Practise({ data }: { data: Data[] }) {
     if (!canvasRef.current) {
       return;
     }
-
     const canvas = canvasRef.current;
     const context = canvas.getContext("2d");
     const scale = window.devicePixelRatio;
@@ -66,15 +70,34 @@ export function Practise({ data }: { data: Data[] }) {
       };
     };
 
+    const drawWord = () => {
+      const text = word;
+      const centerHorizontal = canvas.width / scale / 2;
+      const centerVertical = (canvas.height / scale + 100) / 2;
+
+      let fontsize = 180;
+      do {
+        fontsize--;
+        context.font = `${fontsize}px Massallera`;
+      } while (context.measureText(text).width > (canvas.width / scale) * 0.9);
+
+      // context.font = `${fontSize}px Massallera`;
+      context.fillStyle = "#E6EAEE";
+      context.textAlign = "center";
+      context.textBaseline = "middle";
+      context.fillText(text, centerHorizontal, centerVertical);
+    };
+
     resizeCanvas();
-    drawImage();
+
+    typeMode === "words" ? drawWord() : drawImage();
 
     if (clear) {
       context.clearRect(0, 0, window.innerWidth, window.innerHeight);
     }
 
     setClear(false);
-  }, [imageSrc, resize, clear]);
+  }, [imageSrc, word, resize, clear]);
 
   if (typeof window !== "undefined") {
     let vh = window.innerHeight * 0.01;
@@ -99,7 +122,9 @@ export function Practise({ data }: { data: Data[] }) {
     context.lineCap = "round";
     context.lineJoin = "round";
     context.strokeStyle = "#aee8da";
-    context.lineWidth = 10;
+
+    typeMode === "words" ? (context.lineWidth = 7) : (context.lineWidth = 10);
+
     context.moveTo(clientX, clientY);
 
     setIsDrawing(true);
@@ -125,9 +150,16 @@ export function Practise({ data }: { data: Data[] }) {
 
   return (
     <main className={styles.main}>
-      <Button mode="primary" href="/" position="left" label="home">
-        <Icon icon="home" />
-      </Button>
+      {typeMode === "words" ? (
+        <Button mode="primary" href="/paraules" position="left" label="arrowLeft">
+          <Icon icon="arrowLeft" />
+        </Button>
+      ) : (
+        <Button mode="primary" href="/" position="left" label="home">
+          <Icon icon="home" />
+        </Button>
+      )}
+
       <Button mode="secondary" position="right" label="esborrar" onClick={() => setClear(true)}>
         <Icon icon="eraser" />
       </Button>
@@ -142,18 +174,34 @@ export function Practise({ data }: { data: Data[] }) {
         className={styles.canvas}
       ></canvas>
       <section className={styles.fotter}>
-        <div className={styles.fotter__container}>
-          {data.map((data) => (
-            <Button
-              key={data.text}
-              mode="tertiary"
-              isActive={imageSrc === data.imageSrc}
-              onClick={() => setImageSrc(data.imageSrc)}
-            >
-              {data.text}
-            </Button>
-          ))}
-        </div>
+        {typeMode === "words" ? (
+          <div className={classNames(styles["fotter__container"], styles[`fotter__container--100`])}>
+            {data.map((data) => (
+              <Button
+                key={data.text}
+                mode="tertiary"
+                size="xxl"
+                isActive={word === data.text}
+                onClick={() => setWord(data.text)}
+              >
+                <Icon icon={data.icon} size="xxl" />
+              </Button>
+            ))}
+          </div>
+        ) : (
+          <div className={styles.fotter__container}>
+            {data.map((data) => (
+              <Button
+                key={data.text}
+                mode="tertiary"
+                isActive={imageSrc === data.imageSrc}
+                onClick={() => setImageSrc(data.imageSrc)}
+              >
+                {data.text}
+              </Button>
+            ))}
+          </div>
+        )}
       </section>
     </main>
   );

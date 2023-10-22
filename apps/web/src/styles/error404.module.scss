@@ -1,0 +1,18 @@
+@use "@aeiou/design-system/src/settings/colors";
+
+.main {
+  background-color: colors.$bg-primary;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  padding: 0.5rem;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 1rem;
+  font-family: Massallera;
+  text-align: center;
+  h1,
+  h3 {
+    font-weight: 300;
+  }
+}

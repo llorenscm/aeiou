@@ -40,5 +40,9 @@
     @media (min-width: sizes.$tablet-lg) {
       max-width: 1024px;
     }
+
+    &--100 {
+      max-width: 100%;
+    }
   }
 }

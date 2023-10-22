@@ -1,0 +1,846 @@
+[
+  {
+    "letters": [
+      {
+        "text": "a",
+        "slug": "lletra-a",
+        "imageSrc": "/img/letters/a.png",
+        "paraules": [
+          {
+            "text": "arbre",
+            "icon": "arbre"
+          },
+          {
+            "text": "abella",
+            "icon": "abella"
+          },
+          {
+            "text": "anell",
+            "icon": "anell"
+          },
+          {
+            "text": "aranya",
+            "icon": "aranya"
+          },
+          {
+            "text": "avió",
+            "icon": "avio"
+          },
+          {
+            "text": "àvia",
+            "icon": "avia"
+          }
+        ]
+      },
+      {
+        "text": "b",
+        "slug": "lletra-b",
+        "imageSrc": "/img/letters/b.png",
+        "paraules": [
+          {
+            "text": "balena",
+            "icon": "balena"
+          },
+          {
+            "text": "banyera",
+            "icon": "banyera"
+          },
+          {
+            "text": "bossa",
+            "icon": "bossa"
+          },
+          {
+            "text": "bota",
+            "icon": "bota"
+          },
+          {
+            "text": "bufanda",
+            "icon": "bufanda"
+          },
+          {
+            "text": "burro",
+            "icon": "burro"
+          }
+        ]
+      },
+      {
+        "text": "c",
+        "slug": "lletra-c",
+        "imageSrc": "/img/letters/c.png",
+        "paraules": [
+          {
+            "text": "camió",
+            "icon": "camio"
+          },
+          {
+            "text": "campana",
+            "icon": "campana"
+          },
+          {
+            "text": "casa",
+            "icon": "casa"
+          },
+          {
+            "text": "coet",
+            "icon": "coet"
+          },
+          {
+            "text": "conill",
+            "icon": "conill"
+          },
+          {
+            "text": "cotxe",
+            "icon": "cotxe"
+          }
+        ]
+      },
+      {
+        "text": "d",
+        "slug": "lletra-d",
+        "imageSrc": "/img/letters/d.png",
+        "paraules": [
+          {
+            "text": "daus",
+            "icon": "daus"
+          },
+          {
+            "text": "davantal",
+            "icon": "davantal"
+          },
+          {
+            "text": "dents",
+            "icon": "dents"
+          },
+          {
+            "text": "dinosaure",
+            "icon": "dinosaure"
+          },
+          {
+            "text": "dit",
+            "icon": "dit"
+          },
+          {
+            "text": "dofí",
+            "icon": "dofi"
+          }
+        ]
+      },
+      {
+        "text": "e",
+        "slug": "lletra-e",
+        "imageSrc": "/img/letters/e.png",
+        "paraules": [
+          {
+            "text": "elefant",
+            "icon": "elefant"
+          },
+          {
+            "text": "enciam",
+            "icon": "enciam"
+          },
+          {
+            "text": "escala",
+            "icon": "escala"
+          },
+          {
+            "text": "escombra",
+            "icon": "escombra"
+          },
+          {
+            "text": "espasa",
+            "icon": "espasa"
+          },
+          {
+            "text": "estrella",
+            "icon": "estrella"
+          }
+        ]
+      },
+      {
+        "text": "f",
+        "slug": "lletra-f",
+        "imageSrc": "/img/letters/f.png",
+        "paraules": [
+          {
+            "text": "família",
+            "icon": "familia"
+          },
+          {
+            "text": "fantasma",
+            "icon": "fantasma"
+          },
+          {
+            "text": "flor",
+            "icon": "flor"
+          },
+          {
+            "text": "foc",
+            "icon": "foc"
+          },
+          {
+            "text": "foca",
+            "icon": "foca"
+          },
+          {
+            "text": "font",
+            "icon": "font"
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "slug": "lletra-g",
+        "imageSrc": "/img/letters/g.png",
+        "paraules": [
+          {
+            "text": "gat",
+            "icon": "gat"
+          },
+          {
+            "text": "goma",
+            "icon": "goma"
+          },
+          {
+            "text": "gos",
+            "icon": "gos"
+          },
+          {
+            "text": "gota",
+            "icon": "gota"
+          },
+          {
+            "text": "guants",
+            "icon": "guants"
+          },
+          {
+            "text": "guitarra",
+            "icon": "guitarra"
+          }
+        ]
+      },
+      {
+        "text": "h",
+        "slug": "lletra-h",
+        "imageSrc": "/img/letters/h.png",
+        "paraules": [
+          {
+            "text": "hamaca",
+            "icon": "hamaca"
+          },
+          {
+            "text": "hamburguesa",
+            "icon": "hamburguesa"
+          },
+          {
+            "text": "hàmster",
+            "icon": "hamster"
+          },
+          {
+            "text": "helicòpter",
+            "icon": "helicopter"
+          },
+          {
+            "text": "herba",
+            "icon": "herba"
+          },
+          {
+            "text": "hipopòtam",
+            "icon": "hipopotam"
+          }
+        ]
+      },
+      {
+        "text": "i",
+        "slug": "lletra-i",
+        "imageSrc": "/img/letters/i.png",
+        "paraules": [
+          {
+            "text": "iglú",
+            "icon": "iglu"
+          },
+          {
+            "text": "iguana",
+            "icon": "iguana"
+          },
+          {
+            "text": "imant",
+            "icon": "imant"
+          },
+          {
+            "text": "impressora",
+            "icon": "impressora"
+          },
+          {
+            "text": "indi",
+            "icon": "indi"
+          },
+          {
+            "text": "insecte",
+            "icon": "insecte"
+          }
+        ]
+      },
+      {
+        "text": "j",
+        "slug": "lletra-j",
+        "imageSrc": "/img/letters/j.png",
+        "paraules": [
+          {
+            "text": "jaguar",
+            "icon": "jaguar"
+          },
+          {
+            "text": "jaqueta",
+            "icon": "jaqueta"
+          },
+          {
+            "text": "jersei",
+            "icon": "jersei"
+          },
+          {
+            "text": "joc",
+            "icon": "joc"
+          },
+          {
+            "text": "joia",
+            "icon": "joia"
+          },
+          {
+            "text": "judo",
+            "icon": "judo"
+          }
+        ]
+      },
+      {
+        "text": "k",
+        "slug": "lletra-k",
+        "imageSrc": "/img/letters/k.png",
+        "paraules": [
+          {
+            "text": "karate",
+            "icon": "karate"
+          },
+          {
+            "text": "kilogram",
+            "icon": "kilogram"
+          },
+          {
+            "text": "kiwi",
+            "icon": "kiwi"
+          },
+          {
+            "text": "koala",
+            "icon": "koala"
+          }
+        ]
+      },
+      {
+        "text": "l",
+        "slug": "lletra-l",
+        "imageSrc": "/img/letters/l.png",
+        "paraules": [
+          {
+            "text": "lila",
+            "icon": "lila"
+          },
+          {
+            "text": "llapis",
+            "icon": "llapis"
+          },
+          {
+            "text": "lleó",
+            "icon": "lleo"
+          },
+          {
+            "text": "llibre",
+            "icon": "llibre"
+          },
+          {
+            "text": "llimona",
+            "icon": "llimona"
+          },
+          {
+            "text": "lupa",
+            "icon": "lupa"
+          }
+        ]
+      },
+      {
+        "text": "m",
+        "slug": "lletra-m",
+        "imageSrc": "/img/letters/m.png",
+        "paraules": [
+          {
+            "text": "mare",
+            "icon": "mare"
+          },
+          {
+            "text": "marieta",
+            "icon": "marieta"
+          },
+          {
+            "text": "medusa",
+            "icon": "medusa"
+          },
+          {
+            "text": "mosquit",
+            "icon": "mosquit"
+          },
+          {
+            "text": "muntanya",
+            "icon": "muntanya"
+          },
+          {
+            "text": "música",
+            "icon": "musica"
+          }
+        ]
+      },
+      {
+        "text": "n",
+        "slug": "lletra-n",
+        "imageSrc": "/img/letters/n.png",
+        "paraules": [
+          {
+            "text": "nas",
+            "icon": "nas"
+          },
+          {
+            "text": "negre",
+            "icon": "negre"
+          },
+          {
+            "text": "nena",
+            "icon": "nena"
+          },
+          {
+            "text": "neu",
+            "icon": "neu"
+          },
+          {
+            "text": "nevera",
+            "icon": "nevera"
+          },
+          {
+            "text": "niu",
+            "icon": "niu"
+          }
+        ]
+      },
+      {
+        "text": "o",
+        "slug": "lletra-o",
+        "imageSrc": "/img/letters/o.png",
+        "paraules": [
+          {
+            "text": "ocell",
+            "icon": "ocell"
+          },
+          {
+            "text": "oliva",
+            "icon": "oliva"
+          },
+          {
+            "text": "ordinador",
+            "icon": "ordinador"
+          },
+          {
+            "text": "orella",
+            "icon": "orella"
+          },
+          {
+            "text": "ós",
+            "icon": "os"
+          },
+          {
+            "text": "ou",
+            "icon": "ou"
+          }
+        ]
+      },
+      {
+        "text": "p",
+        "slug": "lletra-p",
+        "imageSrc": "/img/letters/p.png",
+        "paraules": [
+          {
+            "text": "paraigua",
+            "icon": "paraigua"
+          },
+          {
+            "text": "peix",
+            "icon": "peix"
+          },
+          {
+            "text": "pilota",
+            "icon": "pilota"
+          },
+          {
+            "text": "pinta",
+            "icon": "pinta"
+          },
+          {
+            "text": "pirata",
+            "icon": "pirata"
+          },
+          {
+            "text": "poma",
+            "icon": "poma"
+          }
+        ]
+      },
+      {
+        "text": "q",
+        "slug": "lletra-q",
+        "imageSrc": "/img/letters/q.png",
+        "paraules": [
+          {
+            "text": "quadern",
+            "icon": "quadern"
+          },
+          {
+            "text": "quadrat",
+            "icon": "quadrat"
+          },
+          {
+            "text": "quadre",
+            "icon": "quadre"
+          },
+          {
+            "text": "quatre",
+            "icon": "quatre"
+          },
+          {
+            "text": "queixal",
+            "icon": "queixal"
+          },
+          {
+            "text": "quinze",
+            "icon": "quinze"
+          }
+        ]
+      },
+      {
+        "text": "r",
+        "slug": "lletra-r",
+        "imageSrc": "/img/letters/r.png",
+        "paraules": [
+          {
+            "text": "ratolí",
+            "icon": "ratoli"
+          },
+          {
+            "text": "regal",
+            "icon": "regal"
+          },
+          {
+            "text": "rellotge",
+            "icon": "rellotge"
+          },
+          {
+            "text": "riu",
+            "icon": "riu"
+          },
+          {
+            "text": "robot",
+            "icon": "robot"
+          },
+          {
+            "text": "rosa",
+            "icon": "rosa"
+          }
+        ]
+      },
+      {
+        "text": "s",
+        "slug": "lletra-s",
+        "imageSrc": "/img/letters/s.png",
+        "paraules": [
+          {
+            "text": "sabó",
+            "icon": "sabo"
+          },
+          {
+            "text": "samarreta",
+            "icon": "samarreta"
+          },
+          {
+            "text": "serp",
+            "icon": "serp"
+          },
+          {
+            "text": "síndria",
+            "icon": "sindria"
+          },
+          {
+            "text": "sirena",
+            "icon": "sirena"
+          },
+          {
+            "text": "sol",
+            "icon": "sol"
+          }
+        ]
+      },
+      {
+        "text": "t",
+        "slug": "lletra-t",
+        "imageSrc": "/img/letters/t.png",
+        "paraules": [
+          {
+            "text": "taronja",
+            "icon": "taronja"
+          },
+          {
+            "text": "tauró",
+            "icon": "tauro"
+          },
+          {
+            "text": "tigre",
+            "icon": "tigre"
+          },
+          {
+            "text": "tisores",
+            "icon": "tisores"
+          },
+          {
+            "text": "tomàquet",
+            "icon": "tomaquet"
+          },
+          {
+            "text": "tren",
+            "icon": "tren"
+          }
+        ]
+      },
+      {
+        "text": "u",
+        "slug": "lletra-u",
+        "imageSrc": "/img/letters/u.png",
+        "paraules": [
+          {
+            "text": "ull",
+            "icon": "ull"
+          },
+          {
+            "text": "ulleres",
+            "icon": "ulleres"
+          },
+          {
+            "text": "ungla",
+            "icon": "ungla"
+          },
+          {
+            "text": "unicorn",
+            "icon": "unicorn"
+          },
+          {
+            "text": "uniforme",
+            "icon": "uniforme"
+          },
+          {
+            "text": "univers",
+            "icon": "univers"
+          }
+        ]
+      },
+      {
+        "text": "v",
+        "slug": "lletra-v",
+        "imageSrc": "/img/letters/v.png",
+        "paraules": [
+          {
+            "text": "vaca",
+            "icon": "vaca"
+          },
+          {
+            "text": "vaixell",
+            "icon": "vaixell"
+          },
+          {
+            "text": "ventall",
+            "icon": "ventall"
+          },
+          {
+            "text": "veterinària",
+            "icon": "veterinaria"
+          },
+          {
+            "text": "vi",
+            "icon": "vi"
+          },
+          {
+            "text": "volcà",
+            "icon": "volca"
+          }
+        ]
+      },
+      {
+        "text": "w",
+        "slug": "lletra-w",
+        "imageSrc": "/img/letters/w.png",
+        "paraules": [
+          {
+            "text": "walkie-talkie",
+            "icon": "walkie"
+          },
+          {
+            "text": "water",
+            "icon": "water"
+          },
+          {
+            "text": "waterpolo",
+            "icon": "waterpolo"
+          },
+          {
+            "text": "web",
+            "icon": "web"
+          },
+          {
+            "text": "wifi",
+            "icon": "wifi"
+          },
+          {
+            "text": "windsurf",
+            "icon": "windsurf"
+          }
+        ]
+      },
+      {
+        "text": "x",
+        "slug": "lletra-x",
+        "imageSrc": "/img/letters/x.png",
+        "paraules": [
+          {
+            "text": "xampú",
+            "icon": "xampu"
+          },
+          {
+            "text": "xilòfon",
+            "icon": "xilofon"
+          },
+          {
+            "text": "xiulet",
+            "icon": "xiulet"
+          },
+          {
+            "text": "xocolata",
+            "icon": "xocolata"
+          },
+          {
+            "text": "xoriço",
+            "icon": "xoriço"
+          },
+          {
+            "text": "xumet",
+            "icon": "xumet"
+          }
+        ]
+      },
+      {
+        "text": "z",
+        "slug": "lletra-z",
+        "imageSrc": "/img/letters/z.png",
+        "paraules": [
+          {
+            "text": "zebra",
+            "icon": "zebra"
+          },
+          {
+            "text": "zepelí",
+            "icon": "zepeli"
+          },
+          {
+            "text": "zero",
+            "icon": "zero"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numbers": [
+      {
+        "text": "1",
+        "imageSrc": "/img/numbers/1.png"
+      },
+      {
+        "text": "2",
+        "imageSrc": "/img/numbers/2.png"
+      },
+      {
+        "text": "3",
+        "imageSrc": "/img/numbers/3.png"
+      },
+      {
+        "text": "4",
+        "imageSrc": "/img/numbers/4.png"
+      },
+      {
+        "text": "5",
+        "imageSrc": "/img/numbers/5.png"
+      },
+      {
+        "text": "6",
+        "imageSrc": "/img/numbers/6.png"
+      },
+      {
+        "text": "7",
+        "imageSrc": "/img/numbers/7.png"
+      },
+      {
+        "text": "8",
+        "imageSrc": "/img/numbers/8.png"
+      },
+      {
+        "text": "9",
+        "imageSrc": "/img/numbers/9.png"
+      },
+      {
+        "text": "10",
+        "imageSrc": "/img/numbers/10.png"
+      },
+      {
+        "text": "11",
+        "imageSrc": "/img/numbers/11.png"
+      },
+      {
+        "text": "12",
+        "imageSrc": "/img/numbers/12.png"
+      },
+      {
+        "text": "13",
+        "imageSrc": "/img/numbers/13.png"
+      },
+      {
+        "text": "14",
+        "imageSrc": "/img/numbers/14.png"
+      },
+
+      {
+        "text": "15",
+        "imageSrc": "/img/numbers/15.png"
+      },
+      {
+        "text": "16",
+        "imageSrc": "/img/numbers/16.png"
+      },
+      {
+        "text": "17",
+        "imageSrc": "/img/numbers/17.png"
+      },
+      {
+        "text": "18",
+        "imageSrc": "/img/numbers/18.png"
+      },
+      {
+        "text": "19",
+        "imageSrc": "/img/numbers/19.png"
+      },
+      {
+        "text": "20",
+        "imageSrc": "/img/numbers/20.png"
+      }
+    ]
+  }
+]

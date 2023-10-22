@@ -10,6 +10,7 @@ import styles from "./Button.module.scss";
 export interface ButtonProps {
   children: string | JSX.Element;
   mode?: "primary" | "secondary" | "tertiary";
+  size?: "xl" | "xxl";
   href?: string;
   onClick?: () => void;
   isActive?: boolean;
@@ -18,9 +19,9 @@ export interface ButtonProps {
   label?: string;
 }
 
-export const Button = ({ mode = "primary", position, isActive = false, label, ...props }: ButtonProps) => {
+export const Button = ({ mode = "primary", size, position, isActive = false, label, ...props }: ButtonProps) => {
   const componentProps = {
-    className: classNames(styles.btn, styles[`btn--${mode}`], styles[`btn--${position}`], {
+    className: classNames(styles.btn, styles[`btn--${mode}`], styles[`btn--${size}`], styles[`btn--${position}`], {
       [styles["btn--active"]]: isActive,
     }),
     "aria-label": label,

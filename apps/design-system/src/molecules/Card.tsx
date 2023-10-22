@@ -14,11 +14,9 @@ export interface CardProps {
 export const Card = ({ title, image, href, alt }: CardProps) => {
   return (
     <Link href={href}>
-      <a>
-        <section className={classNames(styles.card)}>
-          <Image src={image} alt={alt} width={500} height={500} />
-          <h2 className={classNames(styles.card__title)}>{title}</h2>
-        </section>
+      <a className={classNames(styles.card)}>
+        <Image src={image} alt={alt} width={500} height={500} />
+        <h2 className={classNames(styles.card__title)}>{title}</h2>
       </a>
     </Link>
   );
