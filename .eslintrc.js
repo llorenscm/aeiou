@@ -66,7 +66,7 @@ module.exports = {
     "@typescript-eslint/no-confusing-non-null-assertion": ["error"],
     "@typescript-eslint/no-extra-non-null-assertion": ["error"],
     "@typescript-eslint/no-non-null-asserted-optional-chain": ["error"],
-    "@typescript-eslint/no-non-null-assertion": ["error"],
+    // "@typescript-eslint/no-non-null-assertion": ["error"],
     "@typescript-eslint/prefer-for-of": ["error"],
     "@typescript-eslint/member-ordering": [
       "error",

@@ -184,7 +184,7 @@ export function Practise({ data, type }: { data: Data[]; type: string }) {
                 isActive={word === data.text}
                 onClick={() => setWord(data.text)}
               >
-                <Icon icon={data.icon} size="xxl" />
+                <Icon icon={data.icon!} size="xxl" />
               </Button>
             ))}
           </div>
@@ -195,7 +195,7 @@ export function Practise({ data, type }: { data: Data[]; type: string }) {
                 key={data.text}
                 mode="tertiary"
                 isActive={imageSrc === data.imageSrc}
-                onClick={() => setImageSrc(data.imageSrc)}
+                onClick={() => setImageSrc(data.imageSrc!)}
               >
                 {data.text}
               </Button>

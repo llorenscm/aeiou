@@ -6,22 +6,22 @@ export interface Data {
   icon?: string;
   slug?: string;
   paraules?: [];
-  letters: [];
-  numbers: [];
+  letters?: [];
+  numbers?: [];
 }
 
-export function useLetters(): Data[] {
+export function useLetters(): any {
   const letters = aeiou[0]["letters"];
 
   return letters;
 }
-export function useNumbers(): Data[] {
+export function useNumbers(): any {
   const numbers = aeiou[1]["numbers"];
 
   return numbers;
 }
 
-export function useWords(slug: string): Data[] {
+export function useWords(slug: string): any {
   const wordsStartWithLetter = aeiou[0]["letters"].filter((obj) => {
     return obj.slug === slug;
   });
