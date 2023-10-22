@@ -7,9 +7,14 @@ export type Icons = keyof typeof icons;
 export interface Data {
   text: string;
   imageSrc: string;
-  slug?: string;
+}
+
+export interface Data {
+  text: string;
+  imageSrc: string;
+  slug: string;
   icon: Icons;
-  paraules?: [{ text: string; icon: string }];
+  paraules: [];
 }
 
 export function useLetters(): Data[] {
@@ -24,11 +29,13 @@ export function useNumbers(): Data[] {
 }
 
 export function useWords(slug: string): Data[] {
-  const wordsStartWithLetter = aeiou[0]["letters"].filter((obj) => {
+  const wordsStartWithLetter = aeiou[0]["letters"]?.filter((obj) => {
     return obj.slug === slug;
   });
-
-  const words = wordsStartWithLetter[0]["paraules"];
+  let words: {} = [];
+  if (wordsStartWithLetter != undefined) {
+    words = wordsStartWithLetter[0]["paraules"];
+  }
 
   return words as [];
 }
